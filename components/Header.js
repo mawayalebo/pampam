@@ -35,7 +35,10 @@ function Header() {
                     </ul>
                 }
                 <SignedIn>
-                    <div>
+                    <div className='flex items-center space-x-6'>
+                        <Link href='/dashboard' className='bg-indigo-300 px-4 font-semibold p-2 rounded-md'>
+                            <span>Dashboard</span>
+                        </Link>
                         <UserButton />
                     </div>
                 </SignedIn>
